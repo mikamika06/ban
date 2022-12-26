@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+	</head>
+	<body>
+		
+			<input value="first-name" class="first-name" id="first-name">
+			<script>
+				var FirstNameId = 'first-name';
+				var FirstNameEl = document.getElementById(FirstNameId);
+				window.alert(FirstNameEl.className)
+			</script>
+			<input value="surname" class="surname" id="surname">
+			<script>
+				var SurnameId = 'surname';
+				var SurnameEl = document.getElementById(SurnameId);
+				window.alert(SurnameEl.value);
+			</script>
+			<input value="address" class="address" id="address">
+			<script>
+				var AdressId = 'address';
+				var AdressEl = document.getElementById(AdressId);
+				window.alert(AdressEl.value);
+			</script>
+				<select id="cities" value="cities">
+				<option value="Kiev">Kiev</option>
+				<option value="Moskcow">Moskcow</option>
+				<option value="Minsk" selected='selected'>Minsk</option>
+			</select>
+			<script>
+				var CitiesId = 'cities';
+				var CitiesEl = document.getElementById(CitiesId);
+				window.alert(CitiesEl.value);
+			</script>
+		 	<textarea id="hobbies" class="hobbies">
+				Cycle 
+				Play football
+				Go to the park
+			</textarea>
+			<script>
+				var HobbiesId = 'hobbies';
+				var HobbiesEl = document.getElementById(HobbiesId)
+				window.alert(HobbiesEl.innerHTML)
+			</script> 
+		
+			<div id="Monalisa">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/603px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg">
+			</div>
+			<script>
+				var MonavisaId = 'Monalisa';
+				var MonalisaEl = document.getElementById(MonavisaId);
+				window.alert(MonalisaEl.innerHTML);
+			</script>
+	</body>
+</html>

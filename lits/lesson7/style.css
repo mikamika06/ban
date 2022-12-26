@@ -1,0 +1,33 @@
+.checkInput {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+}
+.labelCheckbox {
+	position: relative;
+	padding-left: 40px;
+	line-height: 20px;
+}
+
+.checkbox {
+	position: absolute;
+	display: block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid blue;
+	border-radius: 5px;
+
+}
+
+.checkInput:checked + .checkbox::after {
+	content: "";
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 10px;
+	height: 10px;
+	border-radius: 2px;
+	background-color: blue;
+}

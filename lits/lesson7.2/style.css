@@ -1,0 +1,70 @@
+.radioInput1 {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+}
+.labelRadio1 {
+	position: relative;
+	padding-left: 40px;
+	line-height: 20px;
+}
+
+.radio1 {
+	position: absolute;
+	display: block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	border-radius: 100px;
+
+}
+
+.radioInput1:checked + .radio1::after {
+	content: "";
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 10px;
+	height: 10px;
+	border-radius: 100px;
+	background-color: green;
+}
+
+.radioInput2 {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+}
+.labelRadio2 {
+	position: relative;
+	padding-left: 40px;
+	line-height: 20px;
+	display: block;
+	top: 10px;
+}
+
+.radio2 {
+	position: absolute;
+	display: block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	border-radius: 100px;
+	left: 0px;
+
+}
+
+.radioInput2:checked + .radio2::after {
+	content: "";
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 10px;
+	height: 10px;
+	border-radius: 100px;
+	background-color: green;
+}

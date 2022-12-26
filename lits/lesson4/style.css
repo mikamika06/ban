@@ -1,0 +1,71 @@
+body{
+	background-color: blanchedalmond;
+}
+
+.bord {
+	height: 266px;
+	width: 285px;
+	background-color: rgb(255, 255, 255);
+	margin: 50px ;
+	font-family: "FuturisLightC", Helvetica, Geneva, sans-serif;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+li {
+	list-style-type: none;
+	display:inline;
+}
+
+.date {
+	font-weight: bold;
+	margin-left: -24px;
+}
+
+
+.imeg {
+	float: right;
+	display:inline;
+	
+}
+
+
+
+.weekdays {
+    text-align: center;
+	margin: 0;
+    padding: 0;
+	font-size: 12px;
+	color: rgb(212, 210, 208);
+	font-weight: bold;
+	word-spacing: 10px;
+	margin-bottom: 0px;
+}
+
+.days {
+    padding: 10px 10px;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 12.60%;
+	height: 30px;
+    text-align: center;
+    font-size: 18px;
+	vertical-align: middle;
+}
+
+ .circle {
+	color: white;
+	/* margin: 30px auto; */
+	background: rgb(12, 161, 247);
+	border-radius: 50%;
+	
+  }
+
+
+.first{
+ 	margin: 50px;
+}

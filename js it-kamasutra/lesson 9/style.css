@@ -1,0 +1,10 @@
+.default-input {
+  border-color: chartreuse;
+  border-width: 5px;
+  padding: 5px;
+  border-style: solid;
+}
+
+.error-input {
+  border-color: red;
+}

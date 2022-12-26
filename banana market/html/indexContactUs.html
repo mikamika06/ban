@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="uk">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="../css/indexHome.css" type="text/css" rel="stylesheet"/>
+		<link href="../css/indexContactUs.css" type="text/css" rel="stylesheet"/>
+		<script defer src="../javascript//ContactUs.js"></script>
+		<title>Banana market</title>
+	</head>
+	<body>
+		<aside class="aside"> 
+			<div class="aside__logo"><img src="../img/logo.png" class="aside__logo--img" role="button"></div>
+			<div class="aside__networks">
+				<img src="../img/face__logo.png" class="aside__networks--img" role="link" onclick="goToLink(event, 'https://m.facebook.com/zuck')" >
+				<img src="../img/instagram__logo.png" class="aside__networks--img" role="link" onclick="goToLink(event, 'https://www.instagram.com/zelenskiy_official/')" >
+				<img src="../img/twitt__logo.png" class="aside__networks--img" role="link" onclick="goToLink(event, 'https://twitter.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor')" >
+			</div>
+		</aside>
+		<div class="homepage">
+			<header class="header">
+				<div  class="header__logo"><img src="../img/Banana__land1.png" class="header__logo--img"></img></div>
+				<nav>
+					<div>
+						<a href="../html/indexHome.html">Home</a>
+						<a href="../html/indexShop.html">Shop</a>
+						<a href="../html/indexAboutUs.html">About us</a>
+						<a href="../html/indexContactUs.html">Contact us</a>
+					</div>
+				</nav>
+				<div class="header__icons">
+					<!-- <img src="../img/carbon_search.png" class="header__icons--img" onclick="goToLink(event, 'about:blank')"> -->
+					<!-- <a href="../html/indexCard.html">
+						<img src="../img/bx_cardoff.png" class="header__icons--img" >
+					</a> -->
+				</div>
+
+			</header>
+			<div class="contactus">
+				<div class="first">
+					<h1>Contact Us</h1>
+					<form class="form" action="https://formspree.io/f/mrgjnyov" method="POST">
+						<div class="form__block1">
+							<input type="text" name="name" placeholder="Name" required>
+							<input type="text" name="surname" placeholder="Last Name" required>
+							<input type="text" name="email" placeholder="Email" required>
+							<input type="text" name="phone" placeholder="Phone no." required>
+						</div>
+						<div class="form__block2">
+							<input type="text" name="subject" placeholder="Subject" required>
+							<textarea type="text" name="text" placeholder="Write Massage" required></textarea>
+						</div>
+						<button type="submit" class="introbloc__button--green" required>Submit</button>
+					</form>
+				</div>
+				<div class="second">
+					<h1>Get in Touch</h1>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, sequi ut. Eos numquam magnam ullam.</p>
+					<input  class="second__inpone" type="text" value="+380955555555"readonly>
+					<input type="text" value="example@gmail.com"readonly>
+					<input type="text" value="Nezalezhnosti Ave, 111, Chernivtsi"readonly>
+
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

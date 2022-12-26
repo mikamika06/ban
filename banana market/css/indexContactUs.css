@@ -1,0 +1,99 @@
+.body {
+	font-family: "Inter";
+}
+
+.contactus {
+	position: absolute;
+	top: 220px;
+	left: 210px;
+	right: 100px;
+	height: 400px;
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+}
+
+.first {
+	width: 650px;
+}
+
+.form {
+	width: 650px;
+}
+
+.form__block1 {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px 20px;
+}
+
+.form__block1 input {
+	width: 300px;
+	height: 30px;
+	padding-left: 10px;
+	border-radius: 4px;
+	color: grey;
+	border: 1px solid gray;
+}
+
+.form__block2 input {
+	height: 30px; 
+	width: 635px;
+	margin-top: 20px;
+	padding-left: 10px;
+	border-radius: 4px;
+	color: grey;
+	border: 1px solid gray;
+}
+
+.form__block2 textarea {
+	max-width: 635px;
+	min-width: 635px;
+	min-height: 100px;
+	max-height: 250px;
+	margin-top: 20px;
+	padding-left: 10px;
+	border-radius: 4px;
+	color: grey;
+	border: 1px solid gray;
+	font-style: normal;
+	font-family: "Inter";
+
+}
+
+.introbloc__button--green {
+	border-radius: 20px;
+}
+
+.second {
+	height: 100%;
+	width: 300px;
+	background-color: rgb(242, 242, 242);;
+}
+
+.second h1 {
+	text-align: left;
+	font-size: 20px;
+	margin: 20px;
+}
+
+.second p {
+	font-size: 13px;
+	margin: 20px;
+	color: rgb(60, 60, 60);
+}
+
+.second input {
+	margin: 10px 0px 10px 20px;
+	width: 250px;
+	height: 30px;
+	background-color: #ffffff;
+	border: 1px solid #58C835;
+	border-radius: 4px;
+	font-size: 12px;
+}
+
+.second input:focus {
+	outline: none;
+
+}

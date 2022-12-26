@@ -1,0 +1,103 @@
+.body {
+	font-family: "Inter";
+	height: 100%;
+}
+
+.aboutpage {
+	width: 100%;
+}
+
+.title {
+	margin-top: 120px;
+	height: 150px;
+	width: 100%;
+	text-align: center;
+}
+.title p {
+	position: relative;
+	top: 80px;
+	font-size: 13px;
+}
+.title h1 {
+	position: relative;
+	top: 80px;
+	font-size: 25px;
+	color: #58C835;
+	font-family: 'Inika';
+
+}
+
+.title h1 em {
+	font-style: normal;
+	color: rgb(16, 16, 16);
+}
+
+.aboutcompany {
+	width: 100%;
+	height: 700px;
+	display: flex;
+	align-items: row;
+}
+
+.aboutcompany__img {
+	height: 100%;
+	width: 49%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.aboutcompany__img img{
+	height: 600px;
+	margin-right:30px ;
+}
+
+.aboutcompany__text {
+	position: relative;
+	height: 100%;
+	width: 35%;
+	display:flex;
+	/* justify-content: space-between; */
+	flex-direction: column;
+	left: 30px;
+}
+
+.aboutcompany__text h1 {
+	font-size: 18px;
+	margin: 150px 0px 10px 0px;
+}
+
+.aboutcompany__text h1 em {
+	font-style: normal;
+	color: #58C835;
+}
+
+.aboutcompany__text p {
+	font-size: 13px;
+	margin: 10px 0px 10px 0px;
+	line-height: 22px;
+	color: grey;
+}
+
+.liitems {
+	width: 100%;
+	padding: 50px 0px 50px 0px;
+}
+
+.liitems__div {
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+.liitems__div h1 {
+	font-size: 20px;
+	margin: 20px 0px 20px 10px;
+	font-family: 'Inika';
+}
+
+.liitems__div p {
+	margin: 10px;
+	font-size: 13px;
+	line-height: 22px;
+	color: grey;
+}
